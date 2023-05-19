@@ -180,6 +180,7 @@ a.current {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-top: 8px;
+  margin-bottom: 0;
 }
 
 .values {
@@ -257,7 +258,6 @@ a.current {
 }
 
 .team-details {
-  border: 1px solid var(--border-color);
   text-align: center;
   padding: 32px 16px;
 }
@@ -293,7 +293,6 @@ a.current {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0;
-  margin-top: 17.5px;
   padding: 0;
   width: 264px;
 }
@@ -395,7 +394,6 @@ a.current {
   border-right: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   padding: 32px 16px;
-  text-align: left;
 }
 /* main containers and sections */
 .container {
@@ -408,6 +406,12 @@ a.current {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.section.no-padding {
+  padding-top: 0;
+  padding-bottom: 120px;
+}
+
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
